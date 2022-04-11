@@ -62,7 +62,8 @@ Now all setup to jenkins, one more step to let Jenkins Run the service using sud
 - sudo visudo
   - add the code in the bottom for give permission jekins
     - jenkins ALL=(ALL) NOPASSWD: ALL
-  - in the same file add collor code to allow ansible show the log with the color in jenkins
+  - in the same file add collor code to allow ansible show the log with the color in jenkins 
+    source : https://major.io/2014/06/25/get-colorful-ansible-output-in-jenkins/
     - Defaults        env_reset
     - Defaults        env_keep += "ANSIBLE_FORCE_COLOR"
 
