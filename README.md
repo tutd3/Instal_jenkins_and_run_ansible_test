@@ -66,6 +66,9 @@ Now all setup to jenkins, one more step to let Jenkins Run the service using sud
     source : https://major.io/2014/06/25/get-colorful-ansible-output-in-jenkins/
     - Defaults        env_reset
     - Defaults        env_keep += "ANSIBLE_FORCE_COLOR"
+  
+ Directory for git
+    - /var/lib/jenkins/workspace/<go_to_your_job_dir_list>
 
 ++++
 =====ANSIBLE=====
